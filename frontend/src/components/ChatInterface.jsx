@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import ProductCard from './ProductCard';
 
+import ReactMarkdown from 'react-markdown';
+
 const ChatInterface = () => {
     const [messages, setMessages] = useState([
         { type: 'bot', text: "Hi! I'm your personal shopping assistant. I can help you find the perfect activewear. Try asking something like 'I need an outfit for yoga' or 'Something for a high-intensity workout'." }
@@ -63,10 +65,12 @@ const ChatInterface = () => {
                     <div key={index} className={`flex flex-col ${msg.type === 'user' ? 'items-end' : 'items-start'}`}>
                         {/* Text Bubble */}
                         <div className={`max-w-[80%] rounded-2xl px-4 py-3 ${msg.type === 'user'
-                                ? 'bg-blue-600 text-white rounded-br-none'
-                                : 'bg-white text-gray-800 shadow-sm rounded-bl-none border border-gray-100'
+                            ? 'bg-blue-600 text-white rounded-br-none'
+                            : 'bg-white text-gray-800 shadow-sm rounded-bl-none border border-gray-100'
                             }`}>
-                            <p className="whitespace-pre-wrap leading-relaxed">{msg.text}</p>
+                            <div className="prose prose-sm max-w-none leading-relaxed">
+                                <ReactMarkdown>{msg.text}</ReactMarkdown>
+                            </div>
                         </div>
 
                         {/* Product Cards Grid */}

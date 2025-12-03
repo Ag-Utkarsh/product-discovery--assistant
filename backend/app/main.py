@@ -88,7 +88,7 @@ class ChatResponse(BaseModel):
 
 @app.post("/chat", response_model=ChatResponse)
 @limiter.limit("5/minute")
-async def chat_endpoint(request: ChatRequest, request_obj: Request):
+async def chat_endpoint(request: Request, chat_request: ChatRequest):
     """
     Handle chat requests using RAG pipeline:
     1. Expand Query (LLM)
@@ -97,8 +97,8 @@ async def chat_endpoint(request: ChatRequest, request_obj: Request):
     """
     try:
         # 1. Expand Query
-        expanded_query = await llm.expand_query(request.query)
-        logger.info(f"Original Query: {request.query} -> Expanded: {expanded_query}")
+        expanded_query = await llm.expand_query(chat_request.query)
+        logger.info(f"Original Query: {chat_request.query} -> Expanded: {expanded_query}")
         
         # 2. Vector Search
         # Note: rag.search_products is synchronous, but fast enough for now.
@@ -114,7 +114,7 @@ async def chat_endpoint(request: ChatRequest, request_obj: Request):
                 logger.warning(f"Skipping invalid product data: {e}")
 
         # 3. Synthesis
-        response_text = await llm.generate_response(request.query, products_data)
+        response_text = await llm.generate_response(chat_request.query, products_data)
         
         return {
             "response": response_text,

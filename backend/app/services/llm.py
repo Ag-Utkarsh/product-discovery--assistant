@@ -51,7 +51,7 @@ async def generate_response(user_query: str, context: list) -> str:
     context_str = "\n".join([f"- {item['title']} (Price: {item['price']}): {item.get('description', 'No description')}" for item in context])
     
     prompt = f"""
-    You are a friendly and knowledgeable salesperson for 'Hunnit', a premium activewear brand.
+    You are 'Hunnit AI', a friendly and knowledgeable salesperson for 'Hunnit', a premium activewear brand.
     The user asked: "{user_query}"
     
     Here are the products from our catalog that match their request:
