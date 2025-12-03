@@ -1,9 +1,13 @@
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.db import supabase
-# from app.services.rag import search_products
 from pydantic import BaseModel
 from typing import List, Optional
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 app = FastAPI(title="Product Discovery Assistant")
 
@@ -43,7 +47,8 @@ async def get_products(
         response = supabase.table("products").select("*").range(offset, offset + limit - 1).execute()
         return response.data
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"Error fetching products: {e}")
+        raise HTTPException(status_code=500, detail="Internal Server Error")
 
 @app.get("/products/{product_id}", response_model=Product)
 async def get_product(product_id: str):
@@ -56,13 +61,5 @@ async def get_product(product_id: str):
             raise HTTPException(status_code=404, detail="Product not found")
         return response.data[0]
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
-# Placeholder for Chat Endpoint
-# class ChatRequest(BaseModel):
-#     query: str
-
-# @app.post("/chat")
-# async def chat(request: ChatRequest):
-#     # TODO: Implement RAG logic
-#     return {"response": "Chat functionality coming soon!", "products": []}
+        logger.error(f"Error fetching product {product_id}: {e}")
+        raise HTTPException(status_code=500, detail="Internal Server Error")

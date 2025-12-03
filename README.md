@@ -4,6 +4,7 @@ A RAG-powered e-commerce assistant that helps users find products using natural 
 
 ## 🚀 Tech Stack
 
+- **Frontend:** React, Vite, Tailwind CSS
 - **Backend:** Python, FastAPI
 - **Database:** Supabase (PostgreSQL + pgvector)
 - **AI/LLM:** Google Gemini (Embeddings & Chat)
@@ -16,14 +17,19 @@ A RAG-powered e-commerce assistant that helps users find products using natural 
     - Reads structured JSON data.
     - Generates vector embeddings for product descriptions and features using `models/text-embedding-004`.
     - Stores product metadata and embeddings in Supabase.
-3.  **RAG Pipeline (In Progress):**
-    - Semantic search using vector similarity (`<=>` operator).
-    - LLM-based query expansion and response generation.
+3.  **Backend API:**
+    - FastAPI server providing endpoints for product listing and details.
+    - Connects to Supabase for data retrieval.
+4.  **Frontend UI:**
+    - Modern, responsive React application.
+    - Design inspired by Hunnit.com.
+    - Features a clean grid layout, bold typography, and optimized product cards.
 
 ## 🛠️ Setup & Installation
 
 ### Prerequisites
 - Python 3.8+
+- Node.js & npm
 - Supabase Account
 - Google Cloud API Key (for Gemini)
 
@@ -31,9 +37,12 @@ A RAG-powered e-commerce assistant that helps users find products using natural 
 
 ```bash
 # Clone the repository
-git clone <repo-url>
-cd "Product Discovery Assistant"
+git clone 'https://github.com/Ag-Utkarsh/Product-Discovery-Assistant.git'
+cd 'Product Discovery Assistant'
+```
 
+#### Backend Setup
+```bash
 # Create and activate virtual environment
 python -m venv backend/venv
 # Windows:
@@ -43,6 +52,12 @@ source backend/venv/bin/activate
 
 # Install dependencies
 pip install -r backend/requirement.txt
+```
+
+#### Frontend Setup
+```bash
+cd frontend
+npm install
 ```
 
 ### 2. Environment Configuration
@@ -70,31 +85,40 @@ Run the ingestion script to populate the database:
 python backend/app/services/ingest_data.py
 ```
 
+## 🏃‍♂️ Running the Application
+
+### Start the Backend Server
+```bash
+# From the root directory
+cd backend
+# Ensure venv is active
+uvicorn app.main:app --reload --port 8000
+```
+The API will be available at `http://localhost:8000`.
+
+### Start the Frontend Server
+```bash
+# From the root directory
+cd frontend
+npm run dev
+```
+The UI will be available at `http://localhost:5173`.
+
 ## 📂 Project Structure
 
 ```
-backend/
-├── app/
-│   ├── core/
-│   │   ├── config.py      # Environment config
-│   │   ├── db.py          # Supabase client
-│   │   └── setup.sql      # Database schema
-│   ├── services/
-│   │   ├── ingest_data.py # Data ingestion script
-│   │   ├── rag.py         # Vector search logic
-│   │   ├── llm.py         # LLM integration (Todo)
-│   │   └── hunnit_products.json # Scraped data
-│   └── main.py            # FastAPI entry point
-├── requirement.txt
-└── venv/
+Product Discovery Assistant/
+├── backend/
+│   ├── app/
+│   │   ├── core/          # Config & DB setup
+│   │   ├── services/      # Ingestion & RAG logic
+│   │   └── main.py        # FastAPI endpoints
+│   └── ...
+├── frontend/
+│   ├── src/
+│   │   ├── components/    # Reusable UI components (ProductCard)
+│   │   ├── pages/         # Page views (Home, ProductDetail)
+│   │   └── ...
+│   └── ...
+└── ...
 ```
-
-## ✅ Progress Log
-
-- [Done] **Data Scraping:** Scraped 29 products from Hunnit.com.
-- [Done] **Data Parsing:** Converted raw text to structured JSON.
-- [Done] **Database Design:** Schema designed for RAG (using `jsonb` for features).
-- [Done] **Vector Search Setup:** Configured `pgvector` with 768 dimensions for Gemini embeddings.
-- [Done] **Data Ingestion:** Successfully uploaded products and embeddings to Supabase.
-- [ ] **API Development:** FastAPI endpoints for Chat and Product Listing.
-- [ ] **Frontend:** React UI (Next Steps).
