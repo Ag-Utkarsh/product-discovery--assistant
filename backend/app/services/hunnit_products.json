@@ -1,0 +1,535 @@
+[
+    {
+        "id": 1,
+        "title": "Zen Cheerful Skort",
+        "price": 1499,
+        "description": "Elevate Your Mood With The Perfect Flare Of The Zen Cheerful Skort!",
+        "features": [
+            "Zero Transparency",
+            "Buttery Soft",
+            "Moisture Wicking",
+            "4 Way Stretch",
+            "NEW IN"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/zen-cheerful-skort-813394.jpg",
+        "category": "BOTTOMWEAR",
+        "colors": [
+            "Midnight Black",
+            "Mauve Taupe",
+            "Mocha Brown",
+            "Raspberry Pink",
+            "Steel Blue",
+            "Coffee Brown",
+            "Deep Burgundy",
+            "Midnight Blue",
+            "Rosewood Red",
+            "Smoke Grey"
+        ],
+        "rating": 4.8
+    },
+    {
+        "id": 2,
+        "title": "Zen 2-In-1 Crop Top",
+        "price": 1199,
+        "description": "",
+        "features": [
+            "Breathable",
+            "Moisture Wicking",
+            "4 Way Stretch"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/zen-2-in-1-crop-top-992610.jpg",
+        "category": "TOPWEAR",
+        "colors": [
+            "Blush Pink",
+            "Midnight Black",
+            "Mocha Brown",
+            "Steel Blue",
+            "Coffee Brown",
+            "Midnight Blue",
+            "Smoke Grey",
+            "Raspberry Pink",
+            "Deep Burgundy",
+            "Mauve Taupe",
+            "Rosewood Red"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": 3,
+        "title": "Zen Ankle Length Leggings",
+        "price": 1399,
+        "description": "",
+        "features": [
+            "Moisture Wicking",
+            "High Waist",
+            "Pockets"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/files/24_july_HUNNIT_DAY_1.5-0215_copy.jpg",
+        "category": "BOTTOMWEAR",
+        "colors": [
+            "Deep Burgundy",
+            "Mauve Taupe",
+            "Midnight Black",
+            "Blush Pink",
+            "Steel Blue",
+            "Mocha Brown"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": 4,
+        "title": "Zen Ankle Length Leggings And Round Neck Sports Bra Co-Ord Set",
+        "price": 2598,
+        "description": "",
+        "features": [
+            "Set includes leggings + sports bra",
+            "Moisture Wicking",
+            "4 Way Stretch"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/zen-78-leggings-and-round-neck-sports-bra-co-ord-set-514101.jpg",
+        "category": "CO-ORD SETS",
+        "colors": [
+            "Mauve Taupe",
+            "Raspberry Pink"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 5,
+        "title": "Zen Capris And 2-In-1 Crop Top Co-Ord Set",
+        "price": 2498,
+        "description": "",
+        "features": [
+            "Set includes capris + crop top"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/zen-34-leggings-and-2-in-1-crop-top-co-ord-set-650826.jpg",
+        "category": "CO-ORD SETS",
+        "colors": [
+            "Steel Blue",
+            "Midnight Black"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 6,
+        "title": "Zen Cheerful Skort And Polo-Neck 2-In-1 Crop Top Co-Ord Set",
+        "price": 2698,
+        "description": "",
+        "features": [
+            "Set includes skort + crop top"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/zen-cheerful-skort-and-polo-neck-2-in-1-crop-top-co-ord-set-451102.jpg",
+        "category": "CO-ORD SETS",
+        "colors": [
+            "Midnight Black",
+            "Mauve Taupe",
+            "Raspberry Pink",
+            "Steel Blue",
+            "Coffee Brown",
+            "Deep Burgundy",
+            "Midnight Blue"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 7,
+        "title": "Zen Flare Pants",
+        "price": 1399,
+        "description": "",
+        "features": [
+            "Flare cut",
+            "Moisture Wicking",
+            "High Waist"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/zen-flare-pants-753460.jpg",
+        "category": "BOTTOMWEAR",
+        "colors": [
+            "Mauve Taupe",
+            "Midnight Black",
+            "Mocha Brown",
+            "Blush Pink",
+            "Steel Blue",
+            "Deep Burgundy",
+            "Raspberry Pink",
+            "Smoke Grey"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": 8,
+        "title": "Majestic Flora Capris And 2-In-1 Crop Top Co-Ord Set",
+        "price": 2498,
+        "description": "",
+        "features": [
+            "Set includes capris + crop top"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/majestic-flora-leggings-and-2-in-1-crop-top-co-ord-set-461433.jpg",
+        "category": "CO-ORD SETS",
+        "colors": [
+            "Midnight Black",
+            "Mocha Brown"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 9,
+        "title": "Safari Chic 2-In-1 Crop Top",
+        "price": 1199,
+        "description": "",
+        "features": [
+            "Safari print",
+            "Breathable"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/safari-chic-2-in-1-crop-top-544677.jpg",
+        "category": "TOPWEAR",
+        "colors": [
+            "Blush Pink",
+            "Steel Blue"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": 10,
+        "title": "Safari Chic 7/8 Leggings",
+        "price": 1449,
+        "description": "",
+        "features": [
+            "Safari print",
+            "Moisture Wicking"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/safari-chic-leggings-554444.jpg",
+        "category": "BOTTOMWEAR",
+        "colors": [
+            "Blush Pink",
+            "Steel Blue"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": 11,
+        "title": "Safari Chic Shorts",
+        "price": 1249,
+        "description": "",
+        "features": [
+            "Safari print",
+            "Breathable"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/files/2_cae680de-a0c6-4019-89d3-dc32a03850e9.jpg",
+        "category": "BOTTOMWEAR",
+        "colors": [
+            "Steel Blue",
+            "Blush Pink"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 12,
+        "title": "Supreme Chill Zipper Jacket",
+        "price": 1899,
+        "description": "",
+        "features": [
+            "Zipper closure",
+            "Lightweight"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/supreme-chill-jacket-900037.jpg",
+        "category": "JACKETS & HOODIES",
+        "colors": [
+            "Black Night",
+            "Hot Pink",
+            "Serene Sky"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 13,
+        "title": "Yin Yang 2-In-1 Crop Top",
+        "price": 1199,
+        "description": "",
+        "features": [
+            "Breathable",
+            "4 Way Stretch"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/yin-yang-2-in-1-crop-top-541524.jpg",
+        "category": "TOPWEAR",
+        "colors": [
+            "Midnight Black",
+            "Mocha Brown"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": 14,
+        "title": "Cosmic Waves Sports Bra",
+        "price": 1249,
+        "description": "",
+        "features": [
+            "Padded",
+            "High support"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/cosmic-waves-sports-bra-211633.jpg",
+        "category": "SPORTS BRAS",
+        "colors": [
+            "Raspberry Pink",
+            "Steel Blue"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 15,
+        "title": "Cosmic Waves Shorts",
+        "price": 1249,
+        "description": "",
+        "features": [
+            "Breathable",
+            "Moisture Wicking"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/cosmic-waves-shorts-495467.jpg",
+        "category": "BOTTOMWEAR",
+        "colors": [
+            "Steel Blue",
+            "Raspberry Pink"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 16,
+        "title": "Epic Pop Crop Top",
+        "price": 999,
+        "description": "",
+        "features": [
+            "Breathable",
+            "Moisture Wicking"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/epic-pop-crop-top-330745.jpg",
+        "category": "TOPWEAR",
+        "colors": [
+            "Midnight Black",
+            "Raspberry Pink",
+            "Steel Blue"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": 17,
+        "title": "Epic Pop 7/8 Leggings",
+        "price": 1449,
+        "description": "",
+        "features": [
+            "Moisture Wicking",
+            "High Waist",
+            "Pockets"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/files/11_a1422455-6a1f-4e3b-a77c-898014ec46e2.jpg",
+        "category": "BOTTOMWEAR",
+        "colors": [
+            "Steel Blue",
+            "Midnight Black",
+            "Raspberry Pink"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": 18,
+        "title": "Cosmic Waves 7/8 Leggings",
+        "price": 1449,
+        "description": "",
+        "features": [
+            "Moisture Wicking",
+            "High Waist"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/cosmic-waves-leggings-264947.jpg",
+        "category": "BOTTOMWEAR",
+        "colors": [
+            "Steel Blue",
+            "Raspberry Pink"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": 19,
+        "title": "Cosmic Waves Cycling Shorts And Sports Bra Co-Ord Set",
+        "price": 2498,
+        "description": "",
+        "features": [
+            "Set includes shorts + sports bra"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/cosmic-waves-cycling-shorts-and-sports-bra-co-ord-set-953504.jpg",
+        "category": "CO-ORD SETS",
+        "colors": [
+            "Steel Blue",
+            "Raspberry Pink"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 20,
+        "title": "Epic Pop Shorts",
+        "price": 1249,
+        "description": "",
+        "features": [
+            "Breathable",
+            "Moisture Wicking"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/epic-pop-shorts-394518.jpg",
+        "category": "BOTTOMWEAR",
+        "colors": [
+            "Midnight Black",
+            "Raspberry Pink",
+            "Steel Blue"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 21,
+        "title": "365 Half Sleeve",
+        "price": 999,
+        "description": "",
+        "features": [
+            "Half sleeve",
+            "Versatile"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/365-half-sleeve-124403.jpg",
+        "category": "TOPWEAR",
+        "colors": [
+            "Cream Beige",
+            "Black",
+            "Fresh Lilac",
+            "Periwinkle Blue",
+            "Move-Purplish",
+            "Lilac"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": 22,
+        "title": "Epic Pop Shorts And Sports Bra Co-Ord Set",
+        "price": 2498,
+        "description": "",
+        "features": [
+            "Set includes shorts + sports bra"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/epic-pop-shorts-and-sports-bra-co-ord-set-489038.jpg",
+        "category": "CO-ORD SETS",
+        "colors": [
+            "Midnight Black",
+            "Raspberry Pink",
+            "Steel Blue"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 23,
+        "title": "Cosmic Waves 7/8 Leggings And Sports Bra Co-Ord Set",
+        "price": 2698,
+        "description": "",
+        "features": [
+            "Set includes leggings + sports bra"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/cosmic-waves-leggings-and-sports-bra-co-ord-set-391732.jpg",
+        "category": "CO-ORD SETS",
+        "colors": [
+            "Steel Blue",
+            "Raspberry Pink"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": 24,
+        "title": "Epic Pop Tank Top",
+        "price": 899,
+        "description": "",
+        "features": [
+            "Sleeveless",
+            "Breathable"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/epic-pop-tank-top-784702.jpg",
+        "category": "TOPWEAR",
+        "colors": [
+            "Midnight Black",
+            "Raspberry Pink",
+            "Steel Blue"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": 25,
+        "title": "Epic Pop V-Neck Sports Bra",
+        "price": 1249,
+        "description": "",
+        "features": [
+            "V-Neck",
+            "Padded"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/epic-pop-v-neck-sports-bra-629644.jpg",
+        "category": "SPORTS BRAS",
+        "colors": [
+            "Midnight Black",
+            "Raspberry Pink",
+            "Steel Blue"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 26,
+        "title": "Epic Pop 7/8 Leggings And Sports Bra Co-Ord Set",
+        "price": 2698,
+        "description": "",
+        "features": [
+            "Set includes leggings + sports bra"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/epic-pop-leggings-and-sports-bra-co-ord-set-723727.jpg",
+        "category": "CO-ORD SETS",
+        "colors": [
+            "Midnight Black",
+            "Raspberry Pink",
+            "Steel Blue"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 27,
+        "title": "Epic Pop 7/8 Leggings And Tank Top Co-Ord Set",
+        "price": 2348,
+        "description": "",
+        "features": [
+            "Set includes leggings + tank top",
+            "1 in stock"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/epic-pop-leggings-and-tank-top-co-ord-set-861103.jpg",
+        "category": "CO-ORD SETS",
+        "colors": [
+            "Steel Blue"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 28,
+        "title": "FLO Shorts",
+        "price": 1300,
+        "description": "",
+        "features": [
+            "Breathable",
+            "Moisture Wicking"
+        ],
+        "image_url": "https://hunnit.com/cdn/shop/products/flo-shorts-158544.jpg",
+        "category": "BOTTOMWEAR",
+        "colors": [
+            "Cream Beige",
+            "Fresh Lilac",
+            "Move-Purplish",
+            "Lilac",
+            "Brown"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": 29,
+        "title": "Flo Sleeve",
+        "price": 1250,
+        "description": "",
+        "features": [
+            "Half sleeve top"
+        ],
+        "image_url": ""
+    }
+]
