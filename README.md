@@ -26,8 +26,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd product-discovery-assistant
+git clone 'https://github.com/Ag-Utkarsh/Product-Discovery-Assistant.git'
+cd Product-Discovery-Assistant
 ```
 
 ### 2. Backend Setup
