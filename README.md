@@ -26,8 +26,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone 'https://github.com/Ag-Utkarsh/Product-Discovery-Assistant.git'
-cd Product-Discovery-Assistant
+git clone 'https://github.com/Ag-Utkarsh/product-discovery--assistant.git'
+cd product-discovery--assistant
 ```
 
 ### 2. Backend Setup
@@ -94,6 +94,26 @@ npm run dev
 ```
 The application will be available at `http://localhost:5173`.
 
+## 📂 Project Structure
+
+```text
+product-discovery-assistant/
+├── backend/                 # FastAPI Backend
+│   ├── app/                 # Application Source
+│   │   ├── main.py          # Entry Point
+│   │   └── services/        # Business Logic (RAG, LLM, Product)
+│   ├── tests/               # Unit Tests
+│   └── requirements.txt     # Python Dependencies
+├── frontend/                # React Frontend
+│   ├── src/                 # Source Code
+│   │   ├── components/      # Reusable Components
+│   │   └── pages/           # Page Views
+│   └── package.json         # Node Dependencies
+└── docs/                    # Detailed Documentation
+    ├── backend/             # Backend Specs & Architecture
+    └── frontend/            # Frontend Architecture
+```
+
 ## 🧪 Testing
 
 ### Backend
@@ -104,12 +124,18 @@ cd backend
 pytest
 ```
 
-### Frontend
-Run linting to check for code quality issues:
+## 📚 Documentation
 
-```bash
-cd frontend
-npm run lint
+For more detailed information about the system architecture and components, please refer to the following documents:
+
+### Backend
+- **[API Specification](docs/backend/api-spec.md):** Detailed list of API endpoints, request/response formats, and data models.
+- **[Architecture Overview](docs/backend/architecture.md):** High-level design, data flow, and technology stack.
+- **[Model Pipeline (RAG)](docs/backend/model-pipeline.md):** Explanation of the Retrieval-Augmented Generation pipeline, including query expansion and vector search.
+
+### Frontend
+- **[Component Map](docs/frontend/component-map.md):** Overview of the React component structure and hierarchy.
+- **[State Management](docs/frontend/state-management.md):** Details on how state is handled within the application.
 
 ## 🤝 Contributing
 
