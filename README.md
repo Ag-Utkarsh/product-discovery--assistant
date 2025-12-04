@@ -132,6 +132,7 @@ For more detailed information about the system architecture and components, plea
 - **[API Specification](docs/backend/api-spec.md):** Detailed list of API endpoints, request/response formats, and data models.
 - **[Architecture Overview](docs/backend/architecture.md):** High-level design, data flow, and technology stack.
 - **[Model Pipeline (RAG)](docs/backend/model-pipeline.md):** Explanation of the Retrieval-Augmented Generation pipeline, including query expansion and vector search.
+- **[Product Scraper](docs/backend/scraper.md):** Documentation for the web scraper used to fetch product data from Hunnit.com.
 
 ### Frontend
 - **[Component Map](docs/frontend/component-map.md):** Overview of the React component structure and hierarchy.
